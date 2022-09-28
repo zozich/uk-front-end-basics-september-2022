@@ -1,0 +1,70 @@
+p {
+    color: red;
+    background-color: green;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+div {
+    color: #76e2af;
+}
+
+.span-1 {
+    color: green;
+}
+
+.span-2 {
+    color: aqua;
+}
+
+.paragraph {
+    margin: 40px 15px 10px 20px;
+    border-top: 10px solid black;
+    padding-left: 30px;
+    background-color: bisque;
+}
+
+/*
+ width: 100px;
+ height: 100px;
+*/
+
+/* Font properties: */
+/*
+font-
+ - size
+ - weight
+ - style
+ */
+
+/* Flexbox */
+/*
+  display: flex;
+  align-items: ...;
+  justify-content: ...;
+*/
+
+.articles {
+    display: flex;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Background */
+/*
+background-
+  - color
+  - size
+  - position
+  - repeat
+  - image
+*/
