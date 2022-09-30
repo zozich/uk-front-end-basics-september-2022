@@ -5,9 +5,9 @@ console.log("First message to console");
 console.log($(".section-control"))
 console.log($(".restaurant"))
 
-// $(".section-control").click(function () {
-//   $(".slider").slideToggle()
-// })
+$(".section-control").click(function () {
+  $(".slider").slideToggle()
+})
 
 $('.slider').slick({
   infinite: true,
