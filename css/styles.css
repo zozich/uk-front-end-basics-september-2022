@@ -84,3 +84,67 @@
     gap: 16px;
     align-items: center;
 }
+
+.restaurants {
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 64px;
+}
+
+.section-control {
+    padding: 16px 24px;
+    background: #F2F4FA;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #9093A6;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.section-control:hover {
+    background: #c8c8c8;
+}
+
+.slider {
+    display: flex;
+}
+
+.restaurant {
+    /*max-width: 25%;*/
+    box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 8px;
+}
+
+.restaurant-image {
+    width: 100%;
+}
+
+.restaurant-logo {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-arrow {
+    width: 48px;
+    height: 48px;
+    background-color: #9093A6 !important;
+    border-radius: 50%;
+    z-index: 1;
+}
